@@ -140,35 +140,33 @@
         padding: 0 !important;
       }
 
-      [data-cursor="sound-on"] {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        --svg: url("data:image/svg+xml,%3Csvg
-xmlns='http://www.w3.org/2000/svg'viewBox='0 0 24 24'%3E%3Cellipse cx='12'cy='5'fill='%23000'rx='4'ry='4'%3E%3Canimate id='svgSpinnersBouncingBall0'fill='freeze'attributeName='cy'begin='0;svgSpinnersBouncingBall2.end'calcMode='spline'dur='0.375s'keySplines='.33,0,.66,.33'values='5;20'/%3E%3Canimate attributeName='rx'begin='svgSpinnersBouncingBall0.end'calcMode='spline'dur='0.05s'keySplines='.33,0,.66,.33;.33,.66,.66,1'values='4;4.8;4'/%3E%3Canimate attributeName='ry'begin='svgSpinnersBouncingBall0.end'calcMode='spline'dur='0.05s'keySplines='.33,0,.66,.33;.33,.66,.66,1'values='4;3;4'/%3E%3Canimate id='svgSpinnersBouncingBall1'attributeName='cy'begin='svgSpinnersBouncingBall0.end'calcMode='spline'dur='0.025s'keySplines='.33,0,.66,.33'values='20;20.5'/%3E%3Canimate id='svgSpinnersBouncingBall2'attributeName='cy'begin='svgSpinnersBouncingBall1.end'calcMode='spline'dur='0.4s'keySplines='.33,.66,.66,1'values='20.5;5'/%3E%3C/ellipse%3E%3C/svg%3E");
-background-color: currentColor;
-            -webkit-mask-image: var(--svg);
-            mask-image: var(--svg);
-            -webkit-mask-repeat: no-repeat;
-            mask-repeat: no-repeat;
-            -webkit-mask-size: 100% 100%;
-            mask-size: 100% 100%;
-        }
+      [data-cursor="sound-off"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='2.8' height='12' x='1' y='6' fill='%23000'%3E%3Canimate attributeName='y' begin='svgSpinnersBarsScaleMiddle0.begin+0.4s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='6;1;6'/%3E%3Canimate attributeName='height' begin='svgSpinnersBarsScaleMiddle0.begin+0.4s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8' height='12' x='5.8' y='6' fill='%23000'%3E%3Canimate attributeName='y' begin='svgSpinnersBarsScaleMiddle0.begin+0.2s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='6;1;6'/%3E%3Canimate attributeName='height' begin='svgSpinnersBarsScaleMiddle0.begin+0.2s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8' height='12' x='10.6' y='6' fill='%23000'%3E%3Canimate id='svgSpinnersBarsScaleMiddle0' attributeName='y' begin='0;svgSpinnersBarsScaleMiddle1.end-0.1s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='6;1;6'/%3E%3Canimate attributeName='height' begin='0;svgSpinnersBarsScaleMiddle1.end-0.1s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8' height='12' x='15.4' y='6' fill='%23000'%3E%3Canimate attributeName='y' begin='svgSpinnersBarsScaleMiddle0.begin+0.2s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='6;1;6'/%3E%3Canimate attributeName='height' begin='svgSpinnersBarsScaleMiddle0.begin+0.2s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8' height='12' x='20.2' y='6' fill='%23000'%3E%3Canimate id='svgSpinnersBarsScaleMiddle1' attributeName='y' begin='svgSpinnersBarsScaleMiddle0.begin+0.4s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='6;1;6'/%3E%3Canimate attributeName='height' begin='svgSpinnersBarsScaleMiddle0.begin+0.4s' calcMode='spline' dur='0.6s' keySplines='.14,.73,.34,1;.65,.26,.82,.45' values='12;22;12'/%3E%3C/rect%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
 
-        [data-cursor="sound-off"] {
-          display: inline-block;
-          width: 1em;
-          height: 1em;
-          --svg: url("data:image/svg+xml,%3Csvg
-xmlns='http://www.w3.org/2000/svg'viewBox='0 0 24 24'%3E%3Crect width='2.8'height='12'x='1'y='6'fill='%23000'%3E%3Canimate attributeName='y'begin='svgSpinnersBarsScaleMiddle0.begin+0.4s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='6;1;6'/%3E%3Canimate attributeName='height'begin='svgSpinnersBarsScaleMiddle0.begin+0.4s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8'height='12'x='5.8'y='6'fill='%23000'%3E%3Canimate attributeName='y'begin='svgSpinnersBarsScaleMiddle0.begin+0.2s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='6;1;6'/%3E%3Canimate attributeName='height'begin='svgSpinnersBarsScaleMiddle0.begin+0.2s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8'height='12'x='10.6'y='6'fill='%23000'%3E%3Canimate id='svgSpinnersBarsScaleMiddle0'attributeName='y'begin='0;svgSpinnersBarsScaleMiddle1.end-0.1s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='6;1;6'/%3E%3Canimate attributeName='height'begin='0;svgSpinnersBarsScaleMiddle1.end-0.1s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8'height='12'x='15.4'y='6'fill='%23000'%3E%3Canimate attributeName='y'begin='svgSpinnersBarsScaleMiddle0.begin+0.2s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='6;1;6'/%3E%3Canimate attributeName='height'begin='svgSpinnersBarsScaleMiddle0.begin+0.2s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='12;22;12'/%3E%3C/rect%3E%3Crect width='2.8'height='12'x='20.2'y='6'fill='%23000'%3E%3Canimate id='svgSpinnersBarsScaleMiddle1'attributeName='y'begin='svgSpinnersBarsScaleMiddle0.begin+0.4s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='6;1;6'/%3E%3Canimate attributeName='height'begin='svgSpinnersBarsScaleMiddle0.begin+0.4s'calcMode='spline'dur='0.6s'keySplines='.14,.73,.34,1;.65,.26,.82,.45'values='12;22;12'/%3E%3C/rect%3E%3C/svg%3E");
-background-color: currentColor;
-            -webkit-mask-image: var(--svg);
-            mask-image: var(--svg);
-            -webkit-mask-repeat: no-repeat;
-            mask-repeat: no-repeat;
-            -webkit-mask-size: 100% 100%;
-            mask-size: 100% 100%;
-          }
+[data-cursor="sound-on"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cellipse cx='12' cy='5' fill='%23000' rx='4' ry='4'%3E%3Canimate id='svgSpinnersBouncingBall0' fill='freeze' attributeName='cy' begin='0;svgSpinnersBouncingBall2.end' calcMode='spline' dur='0.375s' keySplines='.33,0,.66,.33' values='5;20'/%3E%3Canimate attributeName='rx' begin='svgSpinnersBouncingBall0.end' calcMode='spline' dur='0.05s' keySplines='.33,0,.66,.33;.33,.66,.66,1' values='4;4.8;4'/%3E%3Canimate attributeName='ry' begin='svgSpinnersBouncingBall0.end' calcMode='spline' dur='0.05s' keySplines='.33,0,.66,.33;.33,.66,.66,1' values='4;3;4'/%3E%3Canimate id='svgSpinnersBouncingBall1' attributeName='cy' begin='svgSpinnersBouncingBall0.end' calcMode='spline' dur='0.025s' keySplines='.33,0,.66,.33' values='20;20.5'/%3E%3Canimate id='svgSpinnersBouncingBall2' attributeName='cy' begin='svgSpinnersBouncingBall1.end' calcMode='spline' dur='0.4s' keySplines='.33,.66,.66,1' values='20.5;5'/%3E%3C/ellipse%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
     </style>
     <link rel="stylesheet" id="frontend-min-css" href="wp-content/themes/degamin/dist/frontend.min.css" type="text/css" media="all" />
     <link rel="https://api.w.org/" href="https://hoang.moe/wp-json/" />
